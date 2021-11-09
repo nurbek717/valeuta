@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <form id="form" method="get" >
+      <div class="form__bag">
+        <input id="input" class="border" style="width: 300px;" placeholder="USZ" type="number" name="input__currency" required>
+        <select id="select" class="form-select select " style="width: 300px;" aria-label="Default select example">
+          <option selected disabled hidden>Tanlang</option>
+          <option value="usd">USD</option>
+          <option value="eur">EUR</option>
+          <option value="rub">RUB</option>
+        </select> 
+      </div>
+      <!-- buuton -->
+      <div class="d-grid mt-3" style="width: 610px; margin: 0 auto; ">
+        <button class="btn btn-primary" type="submit">Button</button>
+      </div>
+    </form>
+
+    <h1 class="heading" id="tettli"></h1>
+  </div>
+  <p>
+  </p>
+  <script src="./js/main.js"></script>
+</body>
+</html>

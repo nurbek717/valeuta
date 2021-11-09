@@ -1,0 +1,26 @@
+
+body{
+ background: linear-gradient(
+ 90deg,#b45803 30.07%,#144d97 85.96%);
+}
+.container{
+ max-width: 1240px;
+ margin: 0 auto;
+ padding: 0 20px;
+}
+.form__bag{
+ display: flex;
+ justify-content: center;
+ padding-top: 50px;
+ margin: 0 auto;
+ 
+}
+.select{
+ margin-left: 10px;
+}
+
+.heading{
+ padding-top: 20px;
+ text-align: center;
+ color: wheat;
+}
